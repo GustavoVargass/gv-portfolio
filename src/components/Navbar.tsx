@@ -61,7 +61,7 @@ const Navbar = () => {
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
-              className="bg-gray-700 text-gray-300 rounded px-3 py-1.5 h-9"
+              className="bg-gray-700 text-gray-300 rounded px-3 py-1.5 h-9 border border-yellow-400 hover:bg-gray-600 transition-colors"
               aria-label="Toggle Theme"
             >
               {darkMode ? <Sun size={20} /> : <Moon size={20} />}

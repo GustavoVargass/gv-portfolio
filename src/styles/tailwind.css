@@ -27,6 +27,9 @@ html, body, #root {
     .text-secondary {
       color: #0DF5E3; /* Azul elétrico */
     }
+    .text-axk-blue {
+      color: #0DF5E3; /* Azul elétrico */
+    }
     .hover\:bg-secondary:hover {
       background-color: #0DF5E3;
     }
@@ -36,4 +39,13 @@ html, body, #root {
     .font-sans {
       font-family: 'Inter', sans-serif;
     }
+    .glow-text {
+      text-shadow: 0 0 8px #FFD700, 0 0 16px #0DF5E3;
+    }
+    .glow-text-soft {
+      text-shadow: 0 0 4px #FFD700, 0 0 2px #0DF5E3;
+    }
+    .shadow-glow {
+      box-shadow: 0 0 10px #FFD700, 0 0 20px #0DF5E3;
+    }        
   }

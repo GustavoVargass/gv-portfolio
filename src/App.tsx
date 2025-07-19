@@ -1,13 +1,12 @@
 import Navbar from "./components/Navbar";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
     <div className="w-screen min-h-screen bg-gradient-to-b from-black via-gray-900 to-gray-800">
       <Navbar />
       <div className="pt-16">
-        <h1 className="text-5xl font-bold text-yellow-400 text-center pt-20">
-          Engineering the Shadows
-        </h1>
+        <Hero />
       </div>
     </div>
   );
