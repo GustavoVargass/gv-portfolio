@@ -1,0 +1,13 @@
+{
+    "navbar": {
+      "about": "À propos",
+      "technologies": "Technologies",
+      "projects": "Projets",
+      "axk": "AXK"
+    },
+    "hero": {
+      "title": "Gustavo Vargas - Ingénierie des Ombres",
+      "about": "Ingénieur full-stack passionné par la création d’expériences numériques avec des technologies de pointe."
+    }
+  }
+  

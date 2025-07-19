@@ -1,0 +1,13 @@
+{
+    "navbar": {
+      "about": "About",
+      "technologies": "Technologies",
+      "projects": "Projects",
+      "axk": "AXK"
+    },
+    "hero": {
+      "title": "Gustavo Vargas - Engineering the Shadows",
+      "about": "Full-stack engineer passionate about crafting digital experiences with cutting-edge tech."
+    }
+  }
+  

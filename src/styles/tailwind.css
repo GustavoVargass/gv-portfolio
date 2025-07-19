@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  @layer utilities {
+    .bg-dark {
+      background-color: #000000; /* Preto absoluto */
+    }
+    .bg-graphite {
+      background-color: #1A1A1A; /* Cinza grafite */
+    }
+    .bg-primary {
+      background-color: #FFD700; /* Dourado */
+    }
+    .bg-secondary {
+      background-color: #0DF5E3; /* Azul elétrico */
+    }
+    .text-primary {
+      color: #FFD700; /* Dourado */
+    }
+    .text-secondary {
+      color: #0DF5E3; /* Azul elétrico */
+    }
+    .hover\:bg-secondary:hover {
+      background-color: #0DF5E3;
+    }
+    .font-heading {
+      font-family: 'Poppins', sans-serif;
+    }
+    .font-sans {
+      font-family: 'Inter', sans-serif;
+    }
+  }
