@@ -27,7 +27,8 @@ const LanguageSwitcher = () => {
       {/* Trigger Button */}
       <button
         onClick={toggleDropdown}
-        className="flex items-center gap-2 rounded bg-gray-800 px-3 py-1 text-gray-200 hover:bg-gray-700 transition-colors"
+        className="flex items-center gap-2 rounded bg-gray-800 px-3 py-1.5 text-gray-200 hover:bg-gray-700 transition-colors h-9"
+
       >
         <img
           src={selected.flag}
