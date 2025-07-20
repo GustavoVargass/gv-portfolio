@@ -1,13 +1,12 @@
 {
-    "navbar": {
-      "about": "À propos",
-      "technologies": "Technologies",
-      "projects": "Projets",
-      "axk": "AXK"
-    },
-    "hero": {
-      "title": "Gustavo Vargas - Ingénierie des Ombres",
-      "about": "Ingénieur full-stack passionné par la création d’expériences numériques avec des technologies de pointe."
-    }
+  "navbar": {
+    "about": "À propos",
+    "technologies": "Technologies",
+    "projects": "Projets",
+    "axk": "AXK"
+  },
+  "hero": {
+    "title": "Gustavo Vargas - Ingénierie des Ombres",
+    "about": "Chaque obscurité que j’ai traversée m’a appris à être ma propre lumière.\nJe suis Gustavo Vargas - un ingénieur qui crée non seulement du code, mais des histoires.\nÀ la tête d’AXK et dans les coulisses de grands projets, je combine discipline, technique et audace pour matérialiser l’impossible.\nJe ne construis pas seulement des systèmes, je construis des héritages."
   }
-  
+}

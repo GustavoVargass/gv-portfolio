@@ -1,13 +1,12 @@
 {
-    "navbar": {
-      "about": "About",
-      "technologies": "Technologies",
-      "projects": "Projects",
-      "axk": "AXK"
-    },
-    "hero": {
-      "title": "Gustavo Vargas - Engineering the Shadows",
-      "about": "Full-stack engineer passionate about crafting digital experiences with cutting-edge tech."
-    }
+  "navbar": {
+    "about": "About",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "axk": "AXK"
+  },
+  "hero": {
+    "title": "Gustavo Vargas - Engineering the Shadows",
+    "about": "Every darkness I crossed taught me to be the light itself.\nI am Gustavo Vargas - an engineer who creates not only code, but stories.\nLeading AXK and behind major projects, I combine discipline, technique, and boldness to materialize the impossible.\nI don’t just build systems, I build legacies."
   }
-  
+}

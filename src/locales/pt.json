@@ -1,13 +1,12 @@
 {
-    "navbar": {
-      "about": "Sobre",
-      "technologies": "Tecnologias",
-      "projects": "Projetos",
-      "axk": "AXK"
-    },
-    "hero": {
-      "title": "Gustavo Vargas - Engenheiro das Sombras",
-      "about": "Engenheiro full-stack apaixonado por criar experiências digitais com tecnologia de ponta."
-    }
+  "navbar": {
+    "about": "Sobre",
+    "technologies": "Tecnologias",
+    "projects": "Projetos",
+    "axk": "AXK"
+  },
+  "hero": {
+    "title": "Gustavo Vargas - Engenheiro das Sombras",
+    "about": "Toda escuridão que atravessei me ensinou a ser a própria luz.\nSou Gustavo Vargas - um engenheiro que cria não só códigos, mas histórias.\nÀ frente da AXK e nos bastidores de grandes projetos, combino disciplina, técnica e ousadia para materializar o impossível.\nNão construo apenas sistemas, construo legados."
   }
-  
+}
