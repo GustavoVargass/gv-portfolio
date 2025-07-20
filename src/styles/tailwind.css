@@ -57,6 +57,9 @@ html {
   .drop-shadow-glow {
     filter: drop-shadow(0 0 6px #0df5e3);
   }
+  .hover\:shadow-axk:hover {
+    box-shadow: 0 0 20px #0DF5E3, 0 0 40px #0DF5E3;
+  }
   /* Scrollbar geral */
   ::-webkit-scrollbar {
     width: 8px;
