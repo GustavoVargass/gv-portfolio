@@ -13,14 +13,14 @@ const Navbar = () => {
   const toggleTheme = () => setDarkMode(!darkMode);
 
   const menuItems = [
-    { key: "about", href: "#about" },
+    { key: "home", href: "#home" },
     { key: "technologies", href: "#technologies" },
     { key: "projects", href: "#projects" },
     { key: "axk", href: "#axk" },
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-black bg-opacity-80 backdrop-blur-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-black z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left Side - Logo (Desktop) / Hamburger (Mobile) */}
@@ -103,7 +103,7 @@ const Navbar = () => {
                 className="text-lg font-semibold"
                 onClick={toggleMenu}
               >
-                {t("navbar.about")}
+                {t("navbar.home")}
               </a>
               <a
                 href="#technologies"

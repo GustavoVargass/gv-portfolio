@@ -1,51 +1,77 @@
+@import "keen-slider/keen-slider.min.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html, body, #root {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  .bg-dark {
+    background-color: #000000; /* Preto absoluto */
   }
-  
-  @layer utilities {
-    .bg-dark {
-      background-color: #000000; /* Preto absoluto */
-    }
-    .bg-graphite {
-      background-color: #1A1A1A; /* Cinza grafite */
-    }
-    .bg-primary {
-      background-color: #FFD700; /* Dourado */
-    }
-    .bg-secondary {
-      background-color: #0DF5E3; /* Azul elétrico */
-    }
-    .text-primary {
-      color: #FFD700; /* Dourado */
-    }
-    .text-secondary {
-      color: #0DF5E3; /* Azul elétrico */
-    }
-    .text-axk-blue {
-      color: #0DF5E3; /* Azul elétrico */
-    }
-    .hover\:bg-secondary:hover {
-      background-color: #0DF5E3;
-    }
-    .font-heading {
-      font-family: 'Poppins', sans-serif;
-    }
-    .font-sans {
-      font-family: 'Inter', sans-serif;
-    }
-    .glow-text {
-      text-shadow: 0 0 8px #FFD700, 0 0 16px #0DF5E3;
-    }
-    .glow-text-soft {
-      text-shadow: 0 0 4px #FFD700, 0 0 2px #0DF5E3;
-    }
-    .shadow-glow {
-      box-shadow: 0 0 10px #FFD700, 0 0 20px #0DF5E3;
-    }        
+  .bg-graphite {
+    background-color: #1a1a1a; /* Cinza grafite */
   }
+  .bg-primary {
+    background-color: #ffd700; /* Dourado */
+  }
+  .bg-secondary {
+    background-color: #0df5e3; /* Azul elétrico */
+  }
+  .text-primary {
+    color: #ffd700; /* Dourado */
+  }
+  .text-secondary {
+    color: #0df5e3; /* Azul elétrico */
+  }
+  .text-axk-blue {
+    color: #0df5e3; /* Azul elétrico */
+  }
+  .hover\:bg-secondary:hover {
+    background-color: #0df5e3;
+  }
+  .font-heading {
+    font-family: "Poppins", sans-serif;
+  }
+  .font-sans {
+    font-family: "Inter", sans-serif;
+  }
+  .glow-text {
+    text-shadow: 0 0 8px #ffd700, 0 0 16px #0df5e3;
+  }
+  .glow-text-soft {
+    text-shadow: 0 0 4px #ffd700, 0 0 2px #0df5e3;
+  }
+  .shadow-glow {
+    box-shadow: 0 0 10px #ffd700, 0 0 20px #0df5e3;
+  }
+  .drop-shadow-glow {
+    filter: drop-shadow(0 0 6px #0df5e3);
+  }
+  /* Scrollbar geral */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a; /* grafite */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #0df5e3; /* azul elétrico AXK */
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffd700; /* glow dourado no hover */
+  }
+}

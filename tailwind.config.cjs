@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         'axk-blue': '#0DF5E3',
       },
+      scrollBehavior: ['responsive'],
     },
   },
   plugins: [],
