@@ -81,19 +81,22 @@ const Projects = () => {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
 
   return (
-    <section id="projects" className="px-6 md:px-16 py-12 md:py-24 text-center">
+    <section
+      id="projects"
+      className="px-6 md:px-16 py-12 md:py-24 text-center -mt-16 md:-mt-32"
+    >
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         viewport={{ once: true }}
-        className="text-3xl md:text-4xl text-axk-blue mb-8"
+        className="text-3xl md:text-4xl text-axk-blue mb-16"
       >
         &lt;Projects /&gt;
       </motion.h2>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -146,12 +149,13 @@ const Projects = () => {
             onClick={() => setActiveProject(null)}
           >
             <motion.div
-              className="bg-gray-900 rounded-xl p-8 max-w-lg w-full text-left"
+              className="bg-gray-900 rounded-xl p-6 md:p-10 max-w-3xl w-full text-left relative"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
               onClick={(e) => e.stopPropagation()}
             >
+              {/* Conteúdo do modal */}
               <h3 className="text-2xl font-bold text-yellow-400 mb-2">
                 {activeProject.title}
               </h3>
@@ -161,14 +165,15 @@ const Projects = () => {
                 Término: {activeProject.endDate || "N/A"}
               </p>
               <p className="text-gray-400 text-sm mt-2">Tecnologias:</p>
-              <ul className="list-disc list-inside text-gray-300">
+              <ul className="list-disc list-inside text-gray-300 mb-20">
                 {activeProject.technologies.map((tech) => (
                   <li key={tech}>{tech}</li>
                 ))}
               </ul>
 
+              {/* Botão Fechar */}
               <button
-                className="mt-6 px-4 py-2 bg-yellow-400 text-black rounded-lg hover:bg-yellow-500 transition-colors"
+                className="absolute right-6 bottom-6 px-4 py-2 bg-yellow-400 text-black rounded-lg hover:bg-yellow-500 transition-colors"
                 onClick={() => setActiveProject(null)}
               >
                 Fechar
